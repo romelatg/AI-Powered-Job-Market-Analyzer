@@ -1,0 +1,28 @@
+job_title,company,required_skills,experience_years_min,experience_years_max,seniority,language_required,job_id
+Spec Analytics Analyst,Citigroup,"['SQL', 'Python', 'Data Analysis', 'Data Visualization', 'Inteligencia Artificial', 'Machine Learning', 'Communication']",0.0,2,Junior,Both,1
+Data Analyst Associate,Clara,"['SQL', 'Data Analysis', 'Data Visualization', 'Dashboards', 'Reporting', 'ETL', 'Python', 'Inteligencia Artificial', 'Databricks', 'Statistics']",0.0,0,Junior,Both,2
+Analista BI / Data Analytics,Practia Global,"['Power BI', 'Data Visualization', 'SQL', 'Dashboards', 'Data Analysis', 'Database Management']",3.0,0,Mid,Spanish,3
+Data Analyst / Business Intelligence Analyst,Unknown,"['Data Analysis', 'Reporting', 'Business Intelligence', 'Power BI', 'Dashboards', 'Excel', 'SQL', 'Data Visualization']",1.0,0,Junior,Both,4
+Business Operations Analyst II,FBS - Farmer Business Services,"['Power BI', 'SQL', 'Excel', 'Python', 'Dashboards', 'Reporting', 'Data Analysis', 'Inteligencia Artificial', 'Salesforce', 'REST APIs', 'ETL']",1.0,3,Junior,English,5
+Business Operations Associate,VENTES,"['Excel', 'Data Analysis', 'Reporting', 'Inventory Management', 'Logistics', 'Process Optimization']",0.0,3,Junior,Both,6
+Data Analyst (People Analytics),Sears México,"['Data Analysis', 'Dashboards', 'Reporting', 'Excel', 'Power BI', 'Database Management', 'Inteligencia Artificial', 'Business Intelligence']",1.0,2,Junior,Spanish,7
+Analista de Datos,La Flor de Jalisco,"['Excel', 'Database Management', 'Reporting', 'Data Analysis']",0.0,0,Mid,Spanish,8
+Analista de Datos Jr / Analista Comercial / KAM Jr,"Food Solutions, Nutribits","['Data Analysis', 'Reporting', 'Excel', 'Power BI']",0.0,0,Junior,Spanish,9
+Power BI Developer,Giginer,"['Data Analysis', 'Python', 'ETL', 'SQL', 'Data Modeling', 'Power BI', 'Power Apps', 'Cloud Computing']",0.0,0,Mid,Both,10
+Analista Jr de Base de Datos,"SI-Crea Comercial, S.A. de C.V","['Database Management', 'SQL', 'Excel', 'Power BI', 'Reporting', 'Data Analysis']",1.0,0,Junior,Spanish,11
+Unknown,Unknown,"['Power BI', 'SQL', 'Database Management', 'ETL', 'Data Visualization']",0.0,0,Mid,Spanish,12
+Business Intelligence Analyst,Unknown,"['Database Management', 'Data Analysis', 'Business Intelligence', 'Excel', 'Power BI', 'ETL', 'SAP']",1.0,0,Junior,Spanish,13
+Capturista de Pedidos / Administrador de Información,AJEMEX,"['SQL', 'Reporting', 'ERP', 'Database Management', 'Excel']",1.0,0,Junior,Spanish,14
+Data Analytics Jr,Unknown,"['Python', 'SQL', 'Power BI', 'RPA', 'Excel', 'Data Analysis', 'Reporting']",0.0,0,Junior,Both,15
+Analista de Soporte ERP y Reportes,Unknown,"['SQL', 'Power BI', 'Data Visualization', 'Reporting', 'Dashboards', 'Database Management', 'Data Analysis', 'Business Intelligence', 'Excel', 'ERP Support']",1.0,2,Junior,Spanish,16
+Analista de Datos,MODATELAS,"['Excel', 'Power BI', 'SQL', 'Database Management', 'Data Analysis', 'Dashboards', 'Reporting']",2.0,0,Mid,Spanish,17
+Analista de Datos de Producción,Skytex México,"['Excel', 'Power BI', 'Data Analysis', 'Reporting', 'Dashboards', 'Database Management', 'Statistics']",2.0,0,Mid,Spanish,18
+Analista de Datos Comerciales,Unknown,"['Data Analysis', 'Excel', 'Database Management', 'Dashboards', 'Reporting', 'Data Visualization']",2.0,0,Mid,Spanish,19
+Ingeniero BI Jr,CONSUBANCO,"['Reporting', 'Dashboards', 'Data Analysis', 'Business Intelligence']",0.0,0,Junior,Spanish,20
+Analista de Datos / Business Intelligence,Unknown,"['Data Analysis', 'Business Intelligence', 'Excel', 'Power Query', 'Python', 'SQL', 'Power BI', 'Data Visualization', 'Dashboards', 'Reporting', 'Inventory Management']",2.0,4,Mid,Spanish,21
+Analista Junior de Datos,Sniper Human Target,"['Excel', 'Reporting', 'Database Management', 'Inteligencia Artificial', 'Automation']",0.0,0,Junior,Spanish,22
+Analista de Social Listening / Inteligencia Digital,Kostik,"['Data Analysis', 'Reporting', 'Dashboards', 'Data Visualization', 'Power BI', 'Business Intelligence', 'Social Media Monitoring', 'Boolean Search', 'Market Research']",0.0,0,Junior,Spanish,23
+Analista de Datos Jr. / Operaciones & Servicio al Cliente,99minutos,"['Excel', 'Data Analysis', 'Reporting', 'Database Management', 'CRM']",0.5,1,Junior,Spanish,24
+Audit Services Jr,PRGX,"['SQL', 'Data Analysis', 'Python', 'Database Management']",0.0,0,Junior,Both,25
+Analista de Datos Jr,Unknown,"['Dashboards', 'Business Intelligence', 'Inteligencia Artificial', 'Power BI', 'SQL', 'Database Management', 'ETL', 'Excel', 'Data Analysis', 'Reporting', 'Python']",0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,"['Dashboards', 'Business Intelligence', 'Inteligencia Artificial', 'Power BI', 'SQL', 'Database Management', 'ETL', 'Excel', 'Data Analysis', 'Reporting', 'Python', 'Data Modeling']",0.0,0,Junior,Both,27

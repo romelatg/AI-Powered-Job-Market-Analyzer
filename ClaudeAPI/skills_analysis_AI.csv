@@ -1,0 +1,194 @@
+job_title,company,skill,experience_years_min,experience_years_max,seniority,language_required,job_id
+Spec Analytics Analyst,Citigroup,SQL,0.0,2,Junior,Both,1
+Spec Analytics Analyst,Citigroup,Python,0.0,2,Junior,Both,1
+Spec Analytics Analyst,Citigroup,Data Analysis,0.0,2,Junior,Both,1
+Spec Analytics Analyst,Citigroup,Data Visualization,0.0,2,Junior,Both,1
+Spec Analytics Analyst,Citigroup,Inteligencia Artificial,0.0,2,Junior,Both,1
+Spec Analytics Analyst,Citigroup,Machine Learning,0.0,2,Junior,Both,1
+Spec Analytics Analyst,Citigroup,Communication,0.0,2,Junior,Both,1
+Data Analyst Associate,Clara,SQL,0.0,0,Junior,Both,2
+Data Analyst Associate,Clara,Data Analysis,0.0,0,Junior,Both,2
+Data Analyst Associate,Clara,Data Visualization,0.0,0,Junior,Both,2
+Data Analyst Associate,Clara,Dashboards,0.0,0,Junior,Both,2
+Data Analyst Associate,Clara,Reporting,0.0,0,Junior,Both,2
+Data Analyst Associate,Clara,ETL,0.0,0,Junior,Both,2
+Data Analyst Associate,Clara,Python,0.0,0,Junior,Both,2
+Data Analyst Associate,Clara,Inteligencia Artificial,0.0,0,Junior,Both,2
+Data Analyst Associate,Clara,Databricks,0.0,0,Junior,Both,2
+Data Analyst Associate,Clara,Statistics,0.0,0,Junior,Both,2
+Analista BI / Data Analytics,Practia Global,Power BI,3.0,0,Mid,Spanish,3
+Analista BI / Data Analytics,Practia Global,Data Visualization,3.0,0,Mid,Spanish,3
+Analista BI / Data Analytics,Practia Global,SQL,3.0,0,Mid,Spanish,3
+Analista BI / Data Analytics,Practia Global,Dashboards,3.0,0,Mid,Spanish,3
+Analista BI / Data Analytics,Practia Global,Data Analysis,3.0,0,Mid,Spanish,3
+Analista BI / Data Analytics,Practia Global,Database Management,3.0,0,Mid,Spanish,3
+Data Analyst / Business Intelligence Analyst,Unknown,Data Analysis,1.0,0,Junior,Both,4
+Data Analyst / Business Intelligence Analyst,Unknown,Reporting,1.0,0,Junior,Both,4
+Data Analyst / Business Intelligence Analyst,Unknown,Business Intelligence,1.0,0,Junior,Both,4
+Data Analyst / Business Intelligence Analyst,Unknown,Power BI,1.0,0,Junior,Both,4
+Data Analyst / Business Intelligence Analyst,Unknown,Dashboards,1.0,0,Junior,Both,4
+Data Analyst / Business Intelligence Analyst,Unknown,Excel,1.0,0,Junior,Both,4
+Data Analyst / Business Intelligence Analyst,Unknown,SQL,1.0,0,Junior,Both,4
+Data Analyst / Business Intelligence Analyst,Unknown,Data Visualization,1.0,0,Junior,Both,4
+Business Operations Analyst II,FBS - Farmer Business Services,Power BI,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,SQL,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,Excel,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,Python,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,Dashboards,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,Reporting,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,Data Analysis,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,Inteligencia Artificial,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,Salesforce,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,REST APIs,1.0,3,Junior,English,5
+Business Operations Analyst II,FBS - Farmer Business Services,ETL,1.0,3,Junior,English,5
+Business Operations Associate,VENTES,Excel,0.0,3,Junior,Both,6
+Business Operations Associate,VENTES,Data Analysis,0.0,3,Junior,Both,6
+Business Operations Associate,VENTES,Reporting,0.0,3,Junior,Both,6
+Business Operations Associate,VENTES,Inventory Management,0.0,3,Junior,Both,6
+Business Operations Associate,VENTES,Logistics,0.0,3,Junior,Both,6
+Business Operations Associate,VENTES,Process Optimization,0.0,3,Junior,Both,6
+Data Analyst (People Analytics),Sears México,Data Analysis,1.0,2,Junior,Spanish,7
+Data Analyst (People Analytics),Sears México,Dashboards,1.0,2,Junior,Spanish,7
+Data Analyst (People Analytics),Sears México,Reporting,1.0,2,Junior,Spanish,7
+Data Analyst (People Analytics),Sears México,Excel,1.0,2,Junior,Spanish,7
+Data Analyst (People Analytics),Sears México,Power BI,1.0,2,Junior,Spanish,7
+Data Analyst (People Analytics),Sears México,Database Management,1.0,2,Junior,Spanish,7
+Data Analyst (People Analytics),Sears México,Inteligencia Artificial,1.0,2,Junior,Spanish,7
+Data Analyst (People Analytics),Sears México,Business Intelligence,1.0,2,Junior,Spanish,7
+Analista de Datos,La Flor de Jalisco,Excel,0.0,0,Mid,Spanish,8
+Analista de Datos,La Flor de Jalisco,Database Management,0.0,0,Mid,Spanish,8
+Analista de Datos,La Flor de Jalisco,Reporting,0.0,0,Mid,Spanish,8
+Analista de Datos,La Flor de Jalisco,Data Analysis,0.0,0,Mid,Spanish,8
+Analista de Datos Jr / Analista Comercial / KAM Jr,"Food Solutions, Nutribits",Data Analysis,0.0,0,Junior,Spanish,9
+Analista de Datos Jr / Analista Comercial / KAM Jr,"Food Solutions, Nutribits",Reporting,0.0,0,Junior,Spanish,9
+Analista de Datos Jr / Analista Comercial / KAM Jr,"Food Solutions, Nutribits",Excel,0.0,0,Junior,Spanish,9
+Analista de Datos Jr / Analista Comercial / KAM Jr,"Food Solutions, Nutribits",Power BI,0.0,0,Junior,Spanish,9
+Power BI Developer,Giginer,Data Analysis,0.0,0,Mid,Both,10
+Power BI Developer,Giginer,Python,0.0,0,Mid,Both,10
+Power BI Developer,Giginer,ETL,0.0,0,Mid,Both,10
+Power BI Developer,Giginer,SQL,0.0,0,Mid,Both,10
+Power BI Developer,Giginer,Data Modeling,0.0,0,Mid,Both,10
+Power BI Developer,Giginer,Power BI,0.0,0,Mid,Both,10
+Power BI Developer,Giginer,Power Apps,0.0,0,Mid,Both,10
+Power BI Developer,Giginer,Cloud Computing,0.0,0,Mid,Both,10
+Analista Jr de Base de Datos,"SI-Crea Comercial, S.A. de C.V",Database Management,1.0,0,Junior,Spanish,11
+Analista Jr de Base de Datos,"SI-Crea Comercial, S.A. de C.V",SQL,1.0,0,Junior,Spanish,11
+Analista Jr de Base de Datos,"SI-Crea Comercial, S.A. de C.V",Excel,1.0,0,Junior,Spanish,11
+Analista Jr de Base de Datos,"SI-Crea Comercial, S.A. de C.V",Power BI,1.0,0,Junior,Spanish,11
+Analista Jr de Base de Datos,"SI-Crea Comercial, S.A. de C.V",Reporting,1.0,0,Junior,Spanish,11
+Analista Jr de Base de Datos,"SI-Crea Comercial, S.A. de C.V",Data Analysis,1.0,0,Junior,Spanish,11
+Unknown,Unknown,Power BI,0.0,0,Mid,Spanish,12
+Unknown,Unknown,SQL,0.0,0,Mid,Spanish,12
+Unknown,Unknown,Database Management,0.0,0,Mid,Spanish,12
+Unknown,Unknown,ETL,0.0,0,Mid,Spanish,12
+Unknown,Unknown,Data Visualization,0.0,0,Mid,Spanish,12
+Business Intelligence Analyst,Unknown,Database Management,1.0,0,Junior,Spanish,13
+Business Intelligence Analyst,Unknown,Data Analysis,1.0,0,Junior,Spanish,13
+Business Intelligence Analyst,Unknown,Business Intelligence,1.0,0,Junior,Spanish,13
+Business Intelligence Analyst,Unknown,Excel,1.0,0,Junior,Spanish,13
+Business Intelligence Analyst,Unknown,Power BI,1.0,0,Junior,Spanish,13
+Business Intelligence Analyst,Unknown,ETL,1.0,0,Junior,Spanish,13
+Business Intelligence Analyst,Unknown,SAP,1.0,0,Junior,Spanish,13
+Capturista de Pedidos / Administrador de Información,AJEMEX,SQL,1.0,0,Junior,Spanish,14
+Capturista de Pedidos / Administrador de Información,AJEMEX,Reporting,1.0,0,Junior,Spanish,14
+Capturista de Pedidos / Administrador de Información,AJEMEX,ERP,1.0,0,Junior,Spanish,14
+Capturista de Pedidos / Administrador de Información,AJEMEX,Database Management,1.0,0,Junior,Spanish,14
+Capturista de Pedidos / Administrador de Información,AJEMEX,Excel,1.0,0,Junior,Spanish,14
+Data Analytics Jr,Unknown,Python,0.0,0,Junior,Both,15
+Data Analytics Jr,Unknown,SQL,0.0,0,Junior,Both,15
+Data Analytics Jr,Unknown,Power BI,0.0,0,Junior,Both,15
+Data Analytics Jr,Unknown,RPA,0.0,0,Junior,Both,15
+Data Analytics Jr,Unknown,Excel,0.0,0,Junior,Both,15
+Data Analytics Jr,Unknown,Data Analysis,0.0,0,Junior,Both,15
+Data Analytics Jr,Unknown,Reporting,0.0,0,Junior,Both,15
+Analista de Soporte ERP y Reportes,Unknown,SQL,1.0,2,Junior,Spanish,16
+Analista de Soporte ERP y Reportes,Unknown,Power BI,1.0,2,Junior,Spanish,16
+Analista de Soporte ERP y Reportes,Unknown,Data Visualization,1.0,2,Junior,Spanish,16
+Analista de Soporte ERP y Reportes,Unknown,Reporting,1.0,2,Junior,Spanish,16
+Analista de Soporte ERP y Reportes,Unknown,Dashboards,1.0,2,Junior,Spanish,16
+Analista de Soporte ERP y Reportes,Unknown,Database Management,1.0,2,Junior,Spanish,16
+Analista de Soporte ERP y Reportes,Unknown,Data Analysis,1.0,2,Junior,Spanish,16
+Analista de Soporte ERP y Reportes,Unknown,Business Intelligence,1.0,2,Junior,Spanish,16
+Analista de Soporte ERP y Reportes,Unknown,Excel,1.0,2,Junior,Spanish,16
+Analista de Soporte ERP y Reportes,Unknown,ERP Support,1.0,2,Junior,Spanish,16
+Analista de Datos,MODATELAS,Excel,2.0,0,Mid,Spanish,17
+Analista de Datos,MODATELAS,Power BI,2.0,0,Mid,Spanish,17
+Analista de Datos,MODATELAS,SQL,2.0,0,Mid,Spanish,17
+Analista de Datos,MODATELAS,Database Management,2.0,0,Mid,Spanish,17
+Analista de Datos,MODATELAS,Data Analysis,2.0,0,Mid,Spanish,17
+Analista de Datos,MODATELAS,Dashboards,2.0,0,Mid,Spanish,17
+Analista de Datos,MODATELAS,Reporting,2.0,0,Mid,Spanish,17
+Analista de Datos de Producción,Skytex México,Excel,2.0,0,Mid,Spanish,18
+Analista de Datos de Producción,Skytex México,Power BI,2.0,0,Mid,Spanish,18
+Analista de Datos de Producción,Skytex México,Data Analysis,2.0,0,Mid,Spanish,18
+Analista de Datos de Producción,Skytex México,Reporting,2.0,0,Mid,Spanish,18
+Analista de Datos de Producción,Skytex México,Dashboards,2.0,0,Mid,Spanish,18
+Analista de Datos de Producción,Skytex México,Database Management,2.0,0,Mid,Spanish,18
+Analista de Datos de Producción,Skytex México,Statistics,2.0,0,Mid,Spanish,18
+Analista de Datos Comerciales,Unknown,Data Analysis,2.0,0,Mid,Spanish,19
+Analista de Datos Comerciales,Unknown,Excel,2.0,0,Mid,Spanish,19
+Analista de Datos Comerciales,Unknown,Database Management,2.0,0,Mid,Spanish,19
+Analista de Datos Comerciales,Unknown,Dashboards,2.0,0,Mid,Spanish,19
+Analista de Datos Comerciales,Unknown,Reporting,2.0,0,Mid,Spanish,19
+Analista de Datos Comerciales,Unknown,Data Visualization,2.0,0,Mid,Spanish,19
+Ingeniero BI Jr,CONSUBANCO,Reporting,0.0,0,Junior,Spanish,20
+Ingeniero BI Jr,CONSUBANCO,Dashboards,0.0,0,Junior,Spanish,20
+Ingeniero BI Jr,CONSUBANCO,Data Analysis,0.0,0,Junior,Spanish,20
+Ingeniero BI Jr,CONSUBANCO,Business Intelligence,0.0,0,Junior,Spanish,20
+Analista de Datos / Business Intelligence,Unknown,Data Analysis,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,Business Intelligence,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,Excel,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,Power Query,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,Python,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,SQL,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,Power BI,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,Data Visualization,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,Dashboards,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,Reporting,2.0,4,Mid,Spanish,21
+Analista de Datos / Business Intelligence,Unknown,Inventory Management,2.0,4,Mid,Spanish,21
+Analista Junior de Datos,Sniper Human Target,Excel,0.0,0,Junior,Spanish,22
+Analista Junior de Datos,Sniper Human Target,Reporting,0.0,0,Junior,Spanish,22
+Analista Junior de Datos,Sniper Human Target,Database Management,0.0,0,Junior,Spanish,22
+Analista Junior de Datos,Sniper Human Target,Inteligencia Artificial,0.0,0,Junior,Spanish,22
+Analista Junior de Datos,Sniper Human Target,Automation,0.0,0,Junior,Spanish,22
+Analista de Social Listening / Inteligencia Digital,Kostik,Data Analysis,0.0,0,Junior,Spanish,23
+Analista de Social Listening / Inteligencia Digital,Kostik,Reporting,0.0,0,Junior,Spanish,23
+Analista de Social Listening / Inteligencia Digital,Kostik,Dashboards,0.0,0,Junior,Spanish,23
+Analista de Social Listening / Inteligencia Digital,Kostik,Data Visualization,0.0,0,Junior,Spanish,23
+Analista de Social Listening / Inteligencia Digital,Kostik,Power BI,0.0,0,Junior,Spanish,23
+Analista de Social Listening / Inteligencia Digital,Kostik,Business Intelligence,0.0,0,Junior,Spanish,23
+Analista de Social Listening / Inteligencia Digital,Kostik,Social Media Monitoring,0.0,0,Junior,Spanish,23
+Analista de Social Listening / Inteligencia Digital,Kostik,Boolean Search,0.0,0,Junior,Spanish,23
+Analista de Social Listening / Inteligencia Digital,Kostik,Market Research,0.0,0,Junior,Spanish,23
+Analista de Datos Jr. / Operaciones & Servicio al Cliente,99minutos,Excel,0.5,1,Junior,Spanish,24
+Analista de Datos Jr. / Operaciones & Servicio al Cliente,99minutos,Data Analysis,0.5,1,Junior,Spanish,24
+Analista de Datos Jr. / Operaciones & Servicio al Cliente,99minutos,Reporting,0.5,1,Junior,Spanish,24
+Analista de Datos Jr. / Operaciones & Servicio al Cliente,99minutos,Database Management,0.5,1,Junior,Spanish,24
+Analista de Datos Jr. / Operaciones & Servicio al Cliente,99minutos,CRM,0.5,1,Junior,Spanish,24
+Audit Services Jr,PRGX,SQL,0.0,0,Junior,Both,25
+Audit Services Jr,PRGX,Data Analysis,0.0,0,Junior,Both,25
+Audit Services Jr,PRGX,Python,0.0,0,Junior,Both,25
+Audit Services Jr,PRGX,Database Management,0.0,0,Junior,Both,25
+Analista de Datos Jr,Unknown,Dashboards,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,Business Intelligence,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,Inteligencia Artificial,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,Power BI,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,SQL,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,Database Management,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,ETL,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,Excel,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,Data Analysis,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,Reporting,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,Python,0.0,0,Junior,Both,26
+Analista de Datos Jr,Unknown,Dashboards,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,Business Intelligence,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,Inteligencia Artificial,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,Power BI,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,SQL,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,Database Management,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,ETL,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,Excel,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,Data Analysis,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,Reporting,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,Python,0.0,0,Junior,Both,27
+Analista de Datos Jr,Unknown,Data Modeling,0.0,0,Junior,Both,27
