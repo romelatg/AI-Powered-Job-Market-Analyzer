@@ -1,6 +1,5 @@
-# Job Market Analyzer — CDMX Data Analyst Roles
-
-## Overview
+# AI-Powered Job Market Analyzer — Data Analyst Roles
+ Overview
 An AI-powered pipeline that automatically extracts and analyzes 
 structured insights from job postings using the Claude API. 
 Analyzes required skills, seniority levels, and language 
@@ -33,12 +32,43 @@ requirements for data analyst roles in Mexico City.
 
 
 ## Dashboard Preview
-![Dashboard](dashboard_screenshot.png)
+![Dashboard](ClaudeAPI/Dashboard1.png)
 
 ## Files
 - `job_market_analyzer.ipynb` — full pipeline notebook
 - `jobs_analysis.csv` — one row per job posting
 - `skills_analysis.csv` — one row per skill mention
+## Claude API Prompt
+The following prompt was used to extract structured data from each job posting:
+
+```
+Extract the following from this job posting and return ONLY a JSON object, no extra text:
+
+- job_title (string)
+- company (string, use "Unknown" if not found)
+- required_skills (list of strings, standardize ALL skill names using these rules:
+    - Use "Excel" for: Excel Avanzado, Microsoft Excel, Google Sheets, VLOOKUP, Tablas dinamicas, PowerPoint, Microsoft Office, Office
+    - Use "Power BI" for: DAX, Power Query, Dataflow, Dataset, Power BI/DAX
+    - Use "SQL" for: SQL Avanzado
+    - Use "Data Analysis" for: Análisis de datos, Data Analytics, Pensamiento analitico, Analytical Skills
+    - Use "Reporting" for: Reportes, Reportes ejecutivos, Elaboracion de reportes, informes
+    - Use "Dashboards" for: Dashboard Design, Dashboard Development, Tableros de control
+    - Use "Database Management" for: Bases de datos, Administracion de bases de datos, Gestion de bases de datos
+    - Use "Business Intelligence" for: Herramientas de BI, BI Tools
+    - Use "Inteligencia Artificial" for: AI, Artificial Intelligence, AI Tools, ChatGPT, Copilot, Gemini
+    - Use "ETL" for: ETL/ELT
+    - Use "Data Visualization" for: Visualizacion de datos
+    - Use your own judgment to group any other similar or equivalent skills not listed above 
+      into their most appropriate standardized category. Prioritize consistency over specificity.)
+- experience_years_min (number, use 0 if not found)
+- experience_years_max (number, use 0 if not found)
+- seniority (string: "Junior", "Mid", or "Senior")
+- language_required (string: "Spanish", "English", or "Both")
+
+Job posting:
+{job_text}
+```
+
 
 ## How to Run
 1. Clone this repository
