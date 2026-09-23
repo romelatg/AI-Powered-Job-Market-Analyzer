@@ -1,0 +1,171 @@
+{
+  "name": "market-ai",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Add Job Posting",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Job posting",
+              "fieldType": "textarea",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.6,
+      "position": [
+        0,
+        0
+      ],
+      "id": "1e9a9849-1a1d-40d0-bab4-50001636ba6a",
+      "name": "Receive job posting",
+      "webhookId": "7fbf7a2e-9a9e-49a7-87c9-05e46c8e5c77"
+    },
+    {
+      "parameters": {
+        "jsCode": "const posting = $input.first().json[\"Job posting\"];\n\nconst prompt = `Extract the following from this job posting and return ONLY a JSON object, no extra text:\n\n- job_title (string)\n- company (string, use \"Unknown\" if not found)\n- required_skills (list of strings, standardize ALL skill names using these rules:\n    - Use \"Excel\" for: Excel Avanzado, Microsoft Excel, Google Sheets, VLOOKUP, Tablas dinamicas, PowerPoint, Microsoft Office, Office\n    - Use \"Power BI\" for: DAX, Power Query, Dataflow, Dataset, Power BI/DAX\n    - Use \"SQL\" for: SQL Avanzado\n    - Use \"Data Analysis\" for: Análisis de datos, Data Analytics, Pensamiento analitico, Analytical Skills\n    - Use \"Reporting\" for: Reportes, Reportes ejecutivos, Elaboracion de reportes, informes\n    - Use \"Dashboards\" for: Dashboard Design, Dashboard Development, Tableros de control\n    - Use \"Database Management\" for: Bases de datos, Administracion de bases de datos, Gestion de bases de datos\n    - Use \"Business Intelligence\" for: Herramientas de BI, BI Tools\n    - Use \"Inteligencia Artificial\" for: AI, Artificial Intelligence, AI Tools, ChatGPT, Copilot, Gemini\n    - Use \"ETL\" for: ETL/ELT\n    - Use \"Data Visualization\" for: Visualizacion de datos\n    - Use your own judgment to group any other similar or equivalent skills not listed above into their most appropriate standardized category. For example if you see \"Looker\" group it with \"Data Visualization\", if you see \"Pandas\" group it with \"Python\". Prioritize consistency over specificity.)\n- experience_years_min (number, use 0 if not found)\n- experience_years_max (number, use 0 if not found)\n- seniority (string: \"Junior\", \"Mid\", or \"Senior\")\n- language_required (string: \"Spanish\", \"English\", or \"Both\")\n\nJob posting:\n${posting}`;\n\nreturn [{\n  json: {\n    body: {\n      model: \"claude-sonnet-4-6\",\n      max_tokens: 1000,\n      temperature: 0,\n      messages: [{ role: \"user\", content: prompt }]\n    }\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        224,
+        0
+      ],
+      "id": "b313aa77-65e1-4384-95de-9aa0441fa30e",
+      "name": "Build Prompt"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.body) }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        448,
+        0
+      ],
+      "id": "d6deb2a0-07e6-49b1-9a88-6173d8e6659b",
+      "name": "Extract Skills with Claude API",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "VG6DYTGJF783uUK0",
+          "name": "Header Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const raw = $input.first().json.content[0].text;\nconst clean = raw.replace(/```json|```/g, \"\").trim();\nconst job = JSON.parse(clean);\n\nreturn [{\n  json: {\n    ...job,\n    submitted_at: $('Receive job posting').first().json.submittedAt\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        672,
+        0
+      ],
+      "id": "5327cf0e-af7c-4190-a68c-0280e3a9ca65",
+      "name": "Parse JSON"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "DECLARE @skills NVARCHAR(MAX) = N'{{ JSON.stringify($json.required_skills).replace(/'/g, \"''\") }}';\n\nINSERT INTO jobs (job_title, company, experience_years_min, experience_years_max, seniority, language_required, submitted_at)\nVALUES (\n  N'{{ $json.job_title.replace(/'/g, \"''\") }}',\n  N'{{ $json.company.replace(/'/g, \"''\") }}',\n  {{ Number($json.experience_years_min) || 0 }},\n  {{ Number($json.experience_years_max) || 0 }},\n  N'{{ $json.seniority.replace(/'/g, \"''\") }}',\n  N'{{ $json.language_required.replace(/'/g, \"''\") }}',\n  CAST(CAST('{{ $json.submitted_at }}' AS DATETIMEOFFSET) AS DATETIME2)\n);\n\nDECLARE @job_id INT = SCOPE_IDENTITY();\n\nINSERT INTO job_skills (job_id, skill)\nSELECT @job_id, value FROM OPENJSON(@skills);\n\nSELECT @job_id AS job_id;",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.microsoftSql",
+      "typeVersion": 1.2,
+      "position": [
+        896,
+        0
+      ],
+      "id": "786ec7e2-79bd-4f2f-b6b1-6d523aaa61db",
+      "name": "Save to SQL Server",
+      "credentials": {
+        "microsoftSql": {
+          "id": "BIvVG4OPDqiIs0S1",
+          "name": "Microsoft SQL account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Receive job posting": {
+      "main": [
+        [
+          {
+            "node": "Build Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Prompt": {
+      "main": [
+        [
+          {
+            "node": "Extract Skills with Claude API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Skills with Claude API": {
+      "main": [
+        [
+          {
+            "node": "Parse JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse JSON": {
+      "main": [
+        [
+          {
+            "node": "Save to SQL Server",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "4c2313ee-af84-4d02-b976-c94157ab3004",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "660552c5ab7386f708ebcd40d6996f3462492575eaf3f3803dc5f245197ab26a"
+  },
+  "nodeGroups": [],
+  "id": "p2aDOL6kOyNIzegw",
+  "tags": []
+}
