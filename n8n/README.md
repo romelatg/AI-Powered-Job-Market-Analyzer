@@ -17,4 +17,4 @@ Power BI reads from SQL Server, so new postings appear on refresh.
 n8n (self-hosted with Docker), Claude API, JavaScript, SQL Server, Power BI
 
 ## Setup
-Import `workflow.json` into n8n and add two credentials: Header Auth (`x-api-key`) for the Claude API, and Microsoft SQL for the database.
+Import `market-ai.json` into n8n and add two credentials: Header Auth (`x-api-key`) for the Claude API, and Microsoft SQL for the database.
